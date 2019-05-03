@@ -157,7 +157,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void FimDoJogo(){
-        confirmation.setTitle("FIM DO JOGO!!! Sua pontuação foi: " + Score.getText().toString())
+        confirmation.setTitle("FIM DO JOGO!!! Sua pontuação foi: " + Score.getText().toString() +
+                "   Acertos: "+Acertos.getText().toString() +
+                "   Erros: "+Erros.getText().toString())
         .setMessage("Você deseja recomeçar?")
         .setPositiveButton("Sim", new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int whichButton) {
