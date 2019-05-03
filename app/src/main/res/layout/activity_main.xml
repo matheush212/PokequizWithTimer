@@ -92,7 +92,7 @@
 
     <TextView
         android:id="@+id/txtPontuacao"
-        android:layout_width="300dp"
+        android:layout_width="260dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
@@ -195,7 +195,7 @@
         android:id="@+id/txvCounter"
         android:layout_width="25dp"
         android:layout_height="23dp"
-        android:layout_marginStart="12dp"
+        android:layout_marginStart="16dp"
         android:layout_marginBottom="16dp"
         android:gravity="center"
         android:text="00"
