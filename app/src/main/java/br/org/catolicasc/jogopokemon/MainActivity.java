@@ -96,7 +96,7 @@ public class MainActivity extends AppCompatActivity {
                                 alerta.cancel();
                             }
                         },
-                        2000);
+                        1000);
 
                     } else {
                         int ErroAtual = Integer.parseInt(Erros.getText().toString());
@@ -118,7 +118,7 @@ public class MainActivity extends AppCompatActivity {
                                         alerta.cancel();
                                     }
                                 },
-                                2000);
+                                1000);
                     }
                     if(numeroJogadas == 10) {
                         new android.os.Handler().postDelayed(
